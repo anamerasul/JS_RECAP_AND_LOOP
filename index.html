@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Document</title>
+</head>
+<body>
+     
+               
+               <script>
+for (var a=1; a<=5;a++){
+               for(var b=1; b<=a; b++){
+                              document.write(b + " ");
+               }
+
+               document.write("<br>");
+}
+
+for (var a=1; a<=5;a++){
+               for(var b=1; b<=a; b++){
+                              document.write(b + " ");
+               }
+
+               document.write("<br>");
+}
+
+
+// nested while loop
+
+
+var mytask=["রাত ৮ টা বাজে মডিউল আনলক করো","ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো","ভিডিও দেখতে দেখতে নোটস নাও","মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো"," কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো" ];
+
+
+k =1;
+
+while( k<=10 ){
+               document.write(k);
+               document.write("<br>")
+               k++;
+
+               var i =1;
+
+              
+               
+
+               while (i <= mytask.length ){
+                              document.write(i +" "+ mytask[i-1] +" " )
+                              document.write("<br>")
+                              i++; 
+                                     
+               }
+
+               document.write("<br>")
+          
+
+
+}
+
+// nested for loop
+
+
+mytask=["রাত ৮ টা বাজে মডিউল আনলক করো","ফটাফট ভিডিও দেখে দেখে প্রাকটিস করো","ভিডিও দেখতে দেখতে নোটস নাও","মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো"," কোন কিছু বুঝতে না পারলে (চিন্তা করে দেখো এইখানে কিন্তু একটা শর্ত আছে ), সাপোর্ট সেশনে জয়েন করো" ];
+
+
+for (  var k=1; k<=10;k++){
+
+               document.write(k);
+               document.write("<br>");
+               for(var i =1; i <=mytask.length;i++){
+                              
+                              // console.log(k);
+                              // console.log(i);
+                              document.write( i +" "+mytask[i-1]+ " ");
+                              document.write("<br>");
+                              
+
+               };
+
+               document.write("<br>");
+
+               // console.log(mytask[i-1]);
+               
+               
+};
+
+               </script>
+</body>
+</html>
